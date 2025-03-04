@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Vue.js Vite Example</title>
+    <meta content="initial-scale=1.0, width=device-width" name="viewport" />
+  </head>
+  <body>
+    <div id="app">
+      <nav>
+        <ul>
+          <li><router-link to="/">Home</router-link></li>
+          <li><router-link to="/pages/2">Page 2</router-link></li>
+          <li><router-link to="/pages/3">Page 3</router-link></li>
+        </ul>
+      </nav>
+      <main>
+        <router-view></router-view>
+      </main>
+    </div>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="https://unpkg.com/vue-router@4"></script>
+    <script src="/src/main.js" type="module"></script>
+
+  </body>
+</html>
